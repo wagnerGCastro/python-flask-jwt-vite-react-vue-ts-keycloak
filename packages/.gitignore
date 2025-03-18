@@ -1,0 +1,9 @@
+samples/
+
+venv/*
+.venv/*
+# !venv/scripts
+.env_development
+
+__pycache__
+.venv

@@ -1,0 +1,22 @@
+
+# Create Venv
+    python -m venv .venv
+  # In cmd.exe
+    .venv\Scripts\activate
+  # In PowerShell
+    .venv\Scripts\Activate.ps1
+  # Linux and MacOS venv activation
+    $ source .venv/bin/activate
+
+
+$ poetry add Flask Flask-SQLAlchemy Flask-Migrate
+$ flask --app app run --debug
+$ flask db init
+$ flask db migrate -m "initial migration"
+
+
+-- muito bom 
+https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate
+
+-- 
+https://flask-migrate.readthedocs.io/en/latest/index.html#installation
